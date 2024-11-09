@@ -1,10 +1,34 @@
 ﻿@{
     ViewData["Title"] = "File Converter";
 }
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>HTML dropdown</title>
+</head>
 <div class="text-center">
     <h1 class="">File Converter </h1>
     <h2>Enter File Below</h2>
-    <a asp asp-controller="" asp-action="" class="btn-secondary">Choose File</a>
+    <a asp-controller="Home" asp-action="" class="btn btn-secondary">Choose File</a>
+    </br>
+    </br>
+
+    <select>
+        <option value="" selected >Convert To</option>
+        <option value="" >Word</option>
+        <option value="">PDF</option>
+        <option value="">Text</option>
+    </select>
+        </br>
+
+    </br>
+
+    <a asp-controller="Home" asp-action="" class="btn btn-secondary">Download</a>
+
 
 </div>
+
+
+
+
