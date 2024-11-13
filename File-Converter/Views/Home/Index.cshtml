@@ -3,31 +3,31 @@
 }
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>HTML dropdown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/styles.css">
 </head>
-<div class="text-center">
-    <h1 class="">File Converter </h1>
-    <h2>Enter File Below</h2>
-    <a asp-controller="Home" asp-action="" class="btn btn-secondary">Choose File</a>
-    </br>
-    </br>
+<body>
+    <div class="container">
+        <h2>File Converter</h2>
+        <form method="post" enctype="multipart/form-data" asp-action="ConvertFile">
+            <div>
+                <label for="file">Choose a file:</label>
+                <input type="file" name="file" id="file" required>
 
-    <select>
-        <option value="" selected >Convert To</option>
-        <option value="" >Word to PDFoption>
-        <option value="">PDF to Word</option>
-    </select>
-        </br>
+            </div>
+            <div>
+                <label for="conversionType">Choose conversion type:</label>
+                <select name="conversionType" id="conversionType">
+                    <option value="WordToPDF">Word to PDF</option>
+                    <option value="PDFToWord">PDF to Word</option>
+                </select>
+            </div>
 
-    </br>
-
-    <a asp-controller="Home" asp-action="" class="btn btn-secondary">Convert</a>
-
-
-</div>
-
-
-
-
+            <button type="submit">Convert</button>
+        </form>
+        @if (ViewBag.Message != null)
+        {
+            <p>@ViewBag.Message</p>
+        }
+    </div>
+</body>
