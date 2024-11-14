@@ -6,7 +6,9 @@
     border-radius: 5px;
     text-align: center;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0 !important;
 }
+
 
 h2 {
     color: #333;
@@ -19,16 +21,16 @@ select {
     width: 100%;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
+button {
+    background-color: #000000;
+    color: #fff;
+
+}
+button.convert{
+    width: 200px;
+}
 button:hover {
-    background-color: #218838;
+    background-color: #808080;
 
 }
