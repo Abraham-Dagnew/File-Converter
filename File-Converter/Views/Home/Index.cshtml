@@ -1,52 +1,41 @@
 ﻿@{
     ViewData["Title"] = "File Converter";
 }
+
+<h1>@ViewData["Title"]</h1>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/site.css">
     <script src="~/js/site.js"></script>
 </head>
-<body>
-    <div class="container">
-        <h2>File Converter</h2>
-        <form method="post" enctype="multipart/form-data" asp-action="ConvertFile">
-            <div class="main">
 
-            <div>
-                <label for="file">Choose a file:</label>
-                <input type="file" name="file" id="file" required>
-                    <div id="hideButton">
-                        <button onclick="removeButton()" class="button1">Remove</button>
-                    </div>
-            </div>
-            
-            <div>
-                <label for="conversionType">Choose conversion type:</label>
-                <select name="conversionType" id="conversionType">
-                    <option value="WordToPDF">Word to PDF</option>
-                    <option value="PDFToWord">PDF to Word</option>
-                </select>
-            </div>
-
-            
-
-            <button type="submit" class="convert">Convert</button>
-            </div>
-        </form>
-
-        @if (ViewBag.Message != null)
-        {
-            <p>@ViewBag.Message</p>
-        }
+<form enctype="multipart/form-data" method="post" asp-action="ConvertFile">
+    <div>
+        <label for="file">Choose a file</label>
+        <input type="file" name="file" id="file" />
+        <div id="hideButton">
+            <button onclick="removeButton()" class="button1">Remove</button>
+        </div>
     </div>
-    <div class="drag">
-        <p>Drag and Drop file</p>
+
+    <div>
+        <label for="conversionType">Choose conversion type</label>
+        <select name="conversionType" id="conversionType">
+            <option value="PDFToWord">PDF to Word</option>
+            <option value="WordToPDF">Word to PDF</option>
+        </select>
     </div>
-</body>
 
+    <button type="submit">Convert</button>
+</form>
 
-
-    
-
-
+@if (ViewBag.Message != null)
+{
+    <div>
+        <p>@ViewBag.Message</p>
+    </div>
+}
+<div class="drag">
+    <p>Drag and Drop file</p>
+</div>

@@ -7,4 +7,8 @@
     <RootNamespace>File_Converter</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Freeware.Pdf2Docx" Version="1.1.0" />
+  </ItemGroup>
+
 </Project>
