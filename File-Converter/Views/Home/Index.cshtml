@@ -2,7 +2,6 @@
     ViewData["Title"] = "File Converter";
 }
 
-<h1>@ViewData["Title"]</h1>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,8 @@
 
 <form enctype="multipart/form-data" method="post" asp-action="ConvertFile">
     <div>
-        <label for="file">Choose a file</label>
+        <h1>File Converter</h1>
+
         <input type="file" name="file" id="file" />
         <div id="hideButton">
             <button onclick="removeButton()" class="button1">Remove</button>
@@ -36,6 +36,4 @@
         <p>@ViewBag.Message</p>
     </div>
 }
-<div class="drag">
-    <p>Drag and Drop file</p>
-</div>
+
