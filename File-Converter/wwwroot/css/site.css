@@ -14,7 +14,7 @@ h1 {
     font-weight: bold;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
     text-decoration:none;
-    border-bottom:4px solid #FF5733;
+    border-bottom:4px solid #7a0000;
 }
 
 input[type="file"],
