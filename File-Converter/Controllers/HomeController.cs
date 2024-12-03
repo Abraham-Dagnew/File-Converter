@@ -74,5 +74,18 @@ namespace File_Converter.Controllers
         {
             return View();
         }
+        public IActionResult Register()
+        {
+            return View();
+        }
+        public IActionResult VerifyEmail()
+        {
+            return View();
+        }
+        
+         public IActionResult ChangePassword()
+        {
+            return View();
+        }
     }
 }

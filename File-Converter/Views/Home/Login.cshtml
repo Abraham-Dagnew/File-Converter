@@ -16,27 +16,11 @@
         <label>Password</label>
         <input placeholder="Password"/>
         </div>
+        <a asp-controller="Home" asp-action="VerifyEmail">Forgot password?</a>
         <div class="Login-button">
             <button>Sign In</button>
         </div>
-        <a href="">Sign Up?</a>
+        <Login-h2>Dont have an account?</Login-h2>
+        <a asp-controller="Home" asp-action="Register" class="link">Signup</a>
     </form>
-    <Sign-h1>Sign Up</Sign-h1>
-    <div class="input">
-        <label>First Name</label>
-        <input placeholder="First Name" />
-    </div>
-    <div class="input">
-        <label>Last Name</label>
-        <input placeholder="Last Name" />
-    </div>
-    <div class="input">
-        <label>Email</label>
-        <input placeholder="Email" />
-    </div>
-    <div class="input">
-        <label>Password</label>
-        <input placeholder="Password" />
-    </div>
-    <a href="">Log in?</a>
     </body>
