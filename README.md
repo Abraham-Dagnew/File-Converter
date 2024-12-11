@@ -22,7 +22,7 @@ This project is a **File Converter** built using the **MVC design pattern** in *
 - **HTML & CSS**: Frontend structure and styling.
 
 ### Frameworks:
-- **.NET MVC**: For application architecture.
+- **.NET MVC 8**: For application architecture.
 
 ### Third-party Libraries:
 - **[LibreOffice](https://www.libreoffice.org/)**: For DOCX and PDF handling.
