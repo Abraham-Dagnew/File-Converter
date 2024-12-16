@@ -18,7 +18,7 @@ This project is a **File Converter** built using the **MVC design pattern** in *
 
 ### Languages:
 - **C#**: Backend logic and file conversion processing.
-- **JavaScript**: Client-side interactivity.
+- **Javascript**: Client-side interactivity.
 - **HTML & CSS**: Frontend structure and styling.
 
 ### Frameworks:
