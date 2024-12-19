@@ -1,6 +1,6 @@
 # File Converter
 
-This project is a **File Converter** built using the **MVC design pattern** in **.NET**. It enables seamless conversion between **DOCX** and **PDF** formats, providing a reliable and efficient solution for document conversion needs.
+This project is a **File Converter** built using the **MVC design pattern** in **.NET**. It enables seamless conversion between **DOCX (Word)** and **PDF** formats, providing a reliable and efficient solution for document conversion needs.
 
 ## Features
 
