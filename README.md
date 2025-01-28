@@ -25,7 +25,7 @@ This project is a **File Converter** built using the **MVC** in **.NET**. It ena
 - **.NET MVC**: For application architecture.
 
 ### Third-party Libraries:
-- **[LibreOffice](https://www.libreoffice.org/)**: For DOCX(WOrd) and PDF handling.
+- **[LibreOffice](https://www.libreoffice.org/)**: For DOCX(Word) and PDF handling.
 - **[FreewarePDF2DOCX](https://www.freewarepdf2docx.com/)**: For PDF to DOCX(Word) conversions.
 
 ## Project Structure
