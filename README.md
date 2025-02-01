@@ -6,7 +6,7 @@ This project is a **File Converter** built using the **MVC** in **.NET**. It ena
 
 - **Two-way file conversion**:
   - Convert **DOCX** to **PDF**.
-  - Convert **PDF** to **DOCX(Word)**.
+  - Convert **PDF** to **DOCX**.
 - **Preserves formatting**:
   - Ensures the integrity of document layout and styling during conversions.
 - **Responsive user interface**:
