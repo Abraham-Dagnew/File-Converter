@@ -12,7 +12,7 @@ This project is a **File Converter** built using the **MVC** in **.NET**. It ena
 - **Responsive user interface**:
   - Built with modern web technologies for a clean and intuitive experience.
 - **MVC Architecture**:
-  - Adheres to the **Model View Controller (MVC)** design pattern for clean and maintainable code.
+  - Adheres to the **Model View Controller(MVC)** design pattern for clean and maintainable code.
 
 ## Technologies Used
 
