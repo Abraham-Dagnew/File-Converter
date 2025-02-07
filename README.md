@@ -35,7 +35,7 @@ This project is a **File Converter** built using the **MVC** in **.NET**. It ena
 - **Models**:
   - Manage data and integrate third-party libraries (**LibreOffice** and **FreewarePDF2DOCX**).
 - **Views**:
-  - Built with **HTML**, **CSS**, and **Javascript** for a responsive and user-friendly interface.
+  - Built with **HTML**, **CSS**, and **Javascript** for a responsive and user friendly interface.
 
 ---
 
